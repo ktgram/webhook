@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "config:base",
+    ":automergeMinor"
+  ],
+  "baseBranches": [
+    "master",
+    "conversation",
+    "echo",
+    "exception-handling",
+    "poll",
+    "heroku",
+    "ktor-webhook",
+    "spring-bot"
+  ],
+  "automergeType": "branch",
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch"
+    }
+  ]
+}
