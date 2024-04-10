@@ -1,11 +1,8 @@
 package com.example.blank
 
-import eu.vendeli.tgbot.TelegramBot
+import eu.vendeli.ktor.starter.serveWebhook
+import kotlinx.coroutines.runBlocking
 
-suspend fun main() {
-    val bot = TelegramBot("BOT_TOKEN")
-    // And that's all write your own bot from blank.
-    // Create new controllers in controller folder or expand old one
-
-    bot.handleUpdates()
+fun main(): Unit = runBlocking {
+    serveWebhook()
 }

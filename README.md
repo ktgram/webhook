@@ -1,35 +1,50 @@
-# Telegram-bot templates
+# Ktor Webhook starter
 
-This repository contains simple different examples of how to use
-the [telegram-bot](https://github.com/vendelieu/telegram-bot) library.
+This repository provides a comprehensive starter template for creating Telegram bots using the Kotlin Telegram Bot
+library, integrated with Ktor for webhook support. It's designed to help developers quickly set up and start building
+their Telegram bots with minimal effort.
 
-# How to use
+## Features
 
-All the examples are conveniently located in different branches, so that you can immediately clone the right one and
-start working with it.
+- **Ktor Webhook Support**: Utilizes Ktor to handle incoming updates from Telegram via webhooks, ensuring efficient and
+  scalable bot operations.
+- **Kotlin Telegram Bot Library**: Leverages the powerful Kotlin Telegram Bot library for seamless interaction with the
+  Telegram Bot API.
+- **Modular Design**: Organized into a modular structure, making it easy to extend and customize the bot's
+  functionality.
+- **Example Implementations**: Includes example implementations for common bot functionalities, such as message
+  handling, inline queries, and more.
 
-You can select the master branch where the minimum example project is located, or you can use a suitable one in the
-corresponding branch and start using it.
+## Getting Started
 
-To clone only master branch use this command:
+To get started with this template, follow these steps:
 
-```
-git clone -b master --single-branch https://github.com/vendelieu/telegram-bot_template.git
-```
+* *Configure Bot environment parameters*
 
-Then replace the word `BOT_TOKEN` with your token in `TgBotApplication.kt`
+* *Run Your Bot*: Execute the following command to start your bot.
 
-and just run your first bot with command:
-
-```
+```bash
 ./gradlew run
 ```
 
-If you have any questions, you can see the [api documentation](https://vendelieu.github.io/telegram-bot/) or ask in
-the [chat room](https://t.me/vennyTgBot).
+## Documentation and Support
 
-### Acknowledgements
+- **API Documentation**: For detailed information on the Telegram Bot API, refer to
+  the [official documentation](https://core.telegram.org/bots/api).
+- **Chat Room**: If you have questions or need assistance, join our chat room for support.
 
-Thanks for choosing this library, I hope you find it handy and useful!
+## Contributing
 
-If you have any suggestions or feedback, I'll always be glad to help and listen to you :)
+We welcome contributions from the community. If you have suggestions or feedback, please feel free to open an issue or
+submit a pull request.
+
+## Acknowledgements
+
+A big thank you to everyone who has contributed to this project. Your support and feedback are invaluable.
+
+If you find this library useful, please consider giving it a star on GitHub. Your support helps us continue to improve
+and maintain this project.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

@@ -18,6 +18,7 @@ repositories {
 
 dependencies {
     implementation(libs.tg.bot)
+    implementation(libs.ktor.starter)
     ksp(libs.tg.ksp)
 }
 
