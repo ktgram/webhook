@@ -1,1 +1,1 @@
-rootProject.name = "tg-bot"
+rootProject.name = "webhook"

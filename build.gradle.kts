@@ -29,7 +29,6 @@ tasks {
     compileKotlin {
         kotlinOptions {
             jvmTarget = jvmTargetVersion.majorVersion
-            javaParameters = true
         }
     }
 }
