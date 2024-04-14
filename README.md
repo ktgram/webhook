@@ -12,14 +12,14 @@ their Telegram bots with minimal effort.
   Telegram Bot API.
 - **Modular Design**: Organized into a modular structure, making it easy to extend and customize the bot's
   functionality.
-- **Example Implementations**: Includes example implementations for common bot functionalities, such as message
-  handling, inline queries, and more.
 
 ## Getting Started
 
 To get started with this template, follow these steps:
 
-* *Configure Bot environment parameters*
+* *Configure server parameters*
+
+* *Set bot token*
 
 * *Run Your Bot*: Execute the following command to start your bot.
 
@@ -29,9 +29,12 @@ To get started with this template, follow these steps:
 
 ## Documentation and Support
 
+- **Library**: For more details you can visit official [library repository](https://github.com/vendelieu/telegram-bot).
 - **API Documentation**: For detailed information on the Telegram Bot API, refer to
   the [official documentation](https://core.telegram.org/bots/api).
-- **Chat Room**: If you have questions or need assistance, join our chat room for support.
+- **Chat Room**: If you have questions or need assistance, join our [chat room](https://t.me/venny_tgbot) for support.
+
+You can see more about ktor starter plugin in related [wiki article](https://github.com/vendelieu/telegram-bot/wiki/Ktor-starter).
 
 ## Contributing
 

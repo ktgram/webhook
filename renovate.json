@@ -4,14 +4,7 @@
     ":automergeMinor"
   ],
   "baseBranches": [
-    "master",
-    "conversation",
-    "echo",
-    "exception-handling",
-    "poll",
-    "heroku",
-    "ktor-webhook",
-    "spring-bot"
+    "master"
   ],
   "automergeType": "branch",
   "packageRules": [
