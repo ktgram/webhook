@@ -9,8 +9,8 @@ fun main(): Unit = runBlocking {
             token = "bot_token"
         }
         server {
-            PEM_PRIVATE_KEY_PATH = "/etc/letsencrypt/live/example.com/fullchain.pem"
-            PEM_CHAIN_PATH = "/etc/letsencrypt/live/example.com/privkey.pem"
+            PEM_PRIVATE_KEY_PATH = "/etc/letsencrypt/live/example.com/privkey.pem"
+            PEM_CHAIN_PATH = "/etc/letsencrypt/live/example.com/fullchain.pem"
             PEM_PRIVATE_KEY = "pem_changeit".toCharArray()
 
             KEYSTORE_PATH = "/etc/ssl/certs/java/cacerts/bot_keystore.jks"
