@@ -1,4 +1,4 @@
-val jvmTargetVersion = JavaVersion.VERSION_11
+val jvmTargetVersion = JavaVersion.VERSION_17
 
 plugins {
     application
@@ -22,13 +22,9 @@ dependencies {
     ksp(libs.tg.ksp)
 }
 
-tasks {
-    compileJava {
-        targetCompatibility = jvmTargetVersion.majorVersion
+kotlin {
+    compilerOptions {
+        jvmTarget = JvmTarget.fromTarget(jvmTargetVersion.majorVersion)
     }
-    compileKotlin {
-        kotlinOptions {
-            jvmTarget = jvmTargetVersion.majorVersion
-        }
-    }
+    jvmToolchain(jvmTargetVersion.majorVersion.toInt())
 }
