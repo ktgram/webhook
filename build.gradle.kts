@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 val jvmTargetVersion = JavaVersion.VERSION_17
 
 plugins {
